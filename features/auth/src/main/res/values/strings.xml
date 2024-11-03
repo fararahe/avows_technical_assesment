@@ -1,0 +1,13 @@
+<resources>
+    <string name="label_password">Password</string>
+    <string name="label_login">Masuk</string>
+    <string name="label_version">Version</string>
+    <string name="label_version_string">Version %1$s</string>
+    <string name="title_notification_permission">Izin Notifikasi</string>
+    <string name="label_notification_permission_detail">Silahkan berikan izin notifikasi untuk mendapatkan fitur yang lengkap</string>
+    <string name="label_notif_permission_permanently_denied">Izin notifikasi ditolak secara permanen, silahkan atur manual melalui setting untuk dapat menggunakan seluruh fitur</string>
+    <string name="label_request_permission_again">Minta Izin Ulang</string>
+    <string name="label_setting">Pengaturan</string>
+    <string name="label_later">Nanti</string>
+    <string name="label_error_min_api_33">ActivityResultLauncher tidak bisa digunakan pada API level dibawah 33</string>
+</resources>

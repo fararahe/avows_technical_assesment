@@ -1,12 +1,6 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
+        google()
         mavenCentral()
         gradlePluginPortal()
     }
@@ -19,6 +13,20 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TechnicalAssesment"
+rootProject.name = "TechnicalAssessment"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
- 
+include(":common:utility")
+include(":core:configs")
+include(":core:navigation")
+include(":features:auth")
+include(":features:home")
+include(":core:pref-data-store")
+include(":data:auth")
+include(":data:home")
+include(":domain:home")
+include(":domain:auth")
+include(":core:shared-model")
+include(":common:shared-resource")
+include(":data:db")
+include(":domain:db")

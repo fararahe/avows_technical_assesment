@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    tools:context=".ui.order_summary.OrderSummaryActivity">
+
+    <TextView
+        android:id="@+id/tvLabelSummary"
+        style="@style/Title"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_order_summary" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_divider"
+        android:contentDescription="@string/label_image_divider"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSummary"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_summary"/>
+
+    <TextView
+        android:id="@+id/tvSoldItem"
+        style="@style/BodyRegularSmall"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="@string/label_item_sold" />
+
+    <TextView
+        android:id="@+id/tvTotalPrice"
+        style="@style/BodyBoldMedium"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:text="@string/label_total_price" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClose"
+        style="@style/BaseCompatButton"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_close" />
+</LinearLayout>

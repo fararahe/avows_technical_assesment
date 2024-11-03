@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--region TextView-->
+
+        <!--region Base TextView-->
+            <style name="BaseTextView" parent="android:TextAppearance">
+                <item name="android:textColor">@color/md_theme_onBackground</item>
+            </style>
+        <!--endregion BaseTextView-->
+
+        <!--region Title-->
+            <style name="Title" parent="BaseTextView">
+                <item name="android:textSize">@dimen/_18ssp</item>
+                <item name="fontFamily">@font/rubik_bold</item>
+            </style>
+        <!--endregion Title-->
+
+        <!--region Body-->
+
+            <!--region Regular-->
+                <style name="BodyRegularLarge" parent="BaseTextView">
+                    <item name="android:textSize">@dimen/_14ssp</item>
+                    <item name="fontFamily">@font/rubik_regular</item>
+                </style>
+                <style name="BodyRegularMedium" parent="BaseTextView">
+                    <item name="android:textSize">@dimen/_13ssp</item>
+                    <item name="fontFamily">@font/rubik_regular</item>
+                </style>
+                <style name="BodyRegularSmall" parent="BaseTextView">
+                    <item name="android:textSize">@dimen/_12ssp</item>
+                    <item name="fontFamily">@font/rubik_regular</item>
+                </style>
+            <!--endregion Regular-->
+
+            <!--region Bold-->
+                <style name="BodyBoldLarge" parent="BaseTextView">
+                    <item name="android:textSize">@dimen/_14ssp</item>
+                    <item name="fontFamily">@font/rubik_bold</item>
+                </style>
+                <style name="BodyBoldMedium" parent="BaseTextView">
+                    <item name="android:textSize">@dimen/_13ssp</item>
+                    <item name="fontFamily">@font/rubik_bold</item>
+                </style>
+                <style name="BodyBoldSmall" parent="BaseTextView">
+                    <item name="android:textSize">@dimen/_12ssp</item>
+                    <item name="fontFamily">@font/rubik_bold</item>
+                </style>
+            <!--endregion Bold-->
+
+            <!--region Light-->
+                <style name="BodyLightLarge" parent="BaseTextView">
+                    <item name="android:textSize">@dimen/_14ssp</item>
+                    <item name="fontFamily">@font/rubik_light</item>
+                </style>
+                <style name="BodyLightMedium" parent="BaseTextView">
+                    <item name="android:textSize">@dimen/_13ssp</item>
+                    <item name="fontFamily">@font/rubik_light</item>
+                </style>
+                <style name="BodyLightSmall" parent="BaseTextView">
+                    <item name="android:textSize">@dimen/_12ssp</item>
+                    <item name="fontFamily">@font/rubik_light</item>
+                </style>
+            <!--endregion Light-->
+
+        <!--endregion Body-->
+
+        <!--region Caption-->
+        <style name="Caption" parent="BaseTextView">
+            <item name="android:textSize">@dimen/_10ssp</item>
+            <item name="fontFamily">@font/rubik_light</item>
+        </style>
+        <!--endregion Footer-->
+
+        <!--region Footer-->
+            <style name="Footer" parent="BaseTextView">
+                <item name="android:textSize">@dimen/_12ssp</item>
+                <item name="fontFamily">@font/rubik_bold</item>
+                <item name="android:textColor">@color/md_theme_inverseSurface</item>
+            </style>
+        <!--endregion Footer-->
+
+    <!--endregion TextView-->
+
+    <!--region Material Button-->
+        <style name="BaseCompatButton" parent="Widget.AppCompat.Button">
+            <item name="android:fontFamily">@font/rubik_bold</item>
+            <item name="android:textSize">@dimen/_12ssp</item>
+            <item name="android:textColor">@color/md_theme_onPrimary</item>
+            <item name="android:paddingStart">@dimen/_20sdp</item>
+            <item name="android:paddingEnd">@dimen/_20sdp</item>
+            <item name="android:background">@drawable/selector_btn</item>
+        </style>
+    <!--endregion Material Button-->
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label">Label</string>
+    <string name="label_helper">Helper</string>
+    <string name="label_password_hint">Min 7 angka dengan huruf besar, kecil, angka dan spesial karakter</string>
+    <string name="label_min_word_int">Minimal %1$d huruf</string>
+    <string name="label_error_email_format">Pastikan email yang dimasukkan benar</string>
+    <string name="label_username">Username</string>
+    <string name="label_title">Title</string>
+    <string name="label_submit">Submit</string>
+</resources>
